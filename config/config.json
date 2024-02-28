@@ -1,0 +1,15 @@
+{
+    "browser_headless": true,
+    "minimum_log_level": "info",
+    "use_profile_name": "default",
+    "allowed_host_file_path": "config/profiles/[profile_name]/allowed_hosts.txt",
+    "allowed_user_agents_file_path": "config/profiles/[profile_name]/allowed_user_agents.txt",
+    "allowed_overrides_file_path": "config/profiles/[profile_name]/allowed_overrides.txt",
+    "proxies_file": "config/proxy_ips.xlsx",
+    "to_scrape": "https://www.google.com/search?q=google scholar {0}",
+    "scraping_file":"config/testing_data.xlsx",
+    "output_column": 3,
+    "log_name": "google_dl",
+    "threads": 1,
+    "timeout_seconds": 120
+}
